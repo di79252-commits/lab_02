@@ -1,0 +1,17 @@
+
+{
+  "name": "lab_02",
+  "version": "1.0.0",
+  "description": "Laboratorium PWA - powiadomienia i Web Push",
+  "scripts": {
+    "generate-keys": "node generate-keys.mjs",
+    "send-push": "node send-push.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
